@@ -11,7 +11,7 @@ and user in order to fulfill the task of booking an appointment.
 The aim of the dataset is to predict **LUFHs**, i.e. **user-initiated (U) forward calls (F)
 and hang-ups (H) that happen in a late (L) point of the conversation**.
 This dataset is characterized by NLG and NLU intents and entities.
-It does not provide any textual utterances.
+It does not provide textual utterances.
 
 This work has been accepted at the COLING 2022's
 workshop `When creative AI meets conversational AI <https://sites.google.com/view/cai-workshop-2022>`_.
@@ -29,6 +29,7 @@ All dialogs include:
 
 * LUHF: binary label 'luhf' or 'not_luhf'.
 * utterances_annotations: contains all NLU and NLG intents and entities.
+
   * caller_name: indicates if it is a NLU (i.e a user input) or NLG (i.e a system input).
   * intent: the purpose which the speaker wants to achieve.
   * entities: slots extracted from NLU and NLG giving context to the conversation.
@@ -73,7 +74,8 @@ The dataset is structured in the following way:
   ]
 
 
-See the file `BETOLD_description.md` and the paper (released soon!) for more details on the creation of the dataset and on the features.
+See the file `BETOLD_description.md  <https://github.com/telepathylabsai/BETOLD_dataset/blob/main/BETOLD_description.md>`_
+and the paper (released soon!) for more details on the creation of the dataset and on the features.
 
 
 
