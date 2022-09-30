@@ -32,39 +32,39 @@ All dialogs include:
     - entities: slots extracted from NLU and NLG giving context to the conversation.
 
 ### Structure
-The features are structured in the following way:
+The dataset is structured in the following way:
 
 ```bash
-[
-  {
-    "LUHF": "luhf",
-    "utterances_annotations": [
-      {
-        "caller_name": "nlg",
-        "intent": "intro_assistant_1",
-        "entities": [
-          {
-            "entity": "recording_warning"
-          }
-        ]
-      },
-      {
-        "caller_name": "nlg",
-        "intent": "intro_assistant_2",
-        "entities": [
-
-        ]
-      },
-      {
-        "caller_name": "nlu",
-        "intent": "schedule",
-        "entities": [
-
-        ]
-      }
-    ]
-  }
-]
+  [
+    {
+      "LUHF": "luhf", # binary label 'luhf' or 'not_luhf'
+      "utterances_annotations": [ # list of interactions between system and human
+        {
+          "caller_name": "nlg",
+          "intent": "intro_assistant_1",
+          "entities": [
+            {
+              "entity": "recording_warning"
+            }
+          ]
+        },
+        {
+          "caller_name": "nlg",
+          "intent": "intro_assistant_2",
+          "entities": [
+          ]
+        },
+        {
+          "caller_name": "nlu",
+          "intent": "schedule",
+          "entities": [
+          ]
+        },
+        # ...
+      ]
+    },
+    # ...
+  ]
 ```
 
 ### List of possible entities

@@ -37,14 +37,14 @@ All dialogs include:
 Structure
 ==================
 
-The features are structured in the following way:
+The dataset is structured in the following way:
 
  .. code-block:: bash
 
   [
     {
-      "LUHF": "luhf",
-      "utterances_annotations": [
+      "LUHF": "luhf", # binary label 'luhf' or 'not_luhf'
+      "utterances_annotations": [ # list of interactions between system and human
         {
           "caller_name": "nlg",
           "intent": "intro_assistant_1",
@@ -65,19 +65,29 @@ The features are structured in the following way:
           "intent": "schedule",
           "entities": [
           ]
-        }
+        },
+        # ...
       ]
-    }
+    },
+    # ...
   ]
 
 
 See the file `BETOLD_description.md` and the paper (released soon!) for more details on the creation of the dataset and on the features.
 
+
+
+******************
+Models
+******************
+See this repository for the models' implementation: https://github.com/telepathylabsai/dialog_breakdown_detection
+
+
 ******************
 Team
 ******************
 
-- Silvia Terragni (<silvia.terragni@telepathy.ai>)
+- Silvia Terragni <silvia.terragni@telepathy.ai>
 - Bruna Guedes
 - Andre Manso
 - Modestas Filipavicius
