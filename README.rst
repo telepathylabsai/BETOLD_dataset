@@ -1,6 +1,6 @@
-============================================================
-BETOLD: A Task-Oriented Dialog Dataset for Dialog Breakdown
-============================================================
+================================================================================
+Data of the paper "BETOLD: A Task-Oriented Dialog Dataset for Dialog Breakdown"
+================================================================================
 
 .. image:: https://img.shields.io/github/license/telepathylabsai/BETOLD_dataset
    :alt: GitHub
