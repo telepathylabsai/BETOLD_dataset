@@ -94,7 +94,7 @@ Team
 - Andre Manso
 - Modestas Filipavicius
 - Nghia Khau
-- Roland Mathis​
+- Roland Mathis
 
 
 ***********************
@@ -107,12 +107,12 @@ If you decide to use this resource, please cite:
 
     @inproceedings{terragni2022betold,
         title={{BETOLD}: A Task-Oriented Dialog Dataset for Breakdown Detection},
-        author={Terragni, Silvia and Guedes, Bruna and Manso, Andre and Filipavicius, Modestas and Khau, Nghia and Mathis​, Roland},
+        author={Terragni, Silvia and Guedes, Bruna and Manso, Andre and Filipavicius, Modestas and Khau, Nghia and Mathis, Roland},
         year={2022},
-        booktitle={Proceedings of the 2rd Workshop When Creative AI Meets Conversational AI (CAI2)",
+        booktitle={Proceedings of the 2nd Workshop on When Creative AI Meets Conversational AI (CAI2), COLING 2022",
         month = oct,
         year = "2022",
         publisher = "Association for Computational Linguistics",
         url = "",
-        pages = "",
+        pages = "23–34",
     }
