@@ -14,8 +14,7 @@ This dataset is characterized by NLG and NLU intents and entities.
 It does not provide textual utterances.
 
 This work has been accepted at the COLING 2022's
-workshop `When creative AI meets conversational AI <https://sites.google.com/view/cai-workshop-2022>`_.
-(Paper will be released soon)
+workshop "When creative AI meets conversational AI". `Click here to read the paper <https://aclanthology.org/2022.cai-1.4/>`_!
 
 
 ******************
@@ -75,7 +74,7 @@ The dataset is structured in the following way:
 
 
 See the file `BETOLD_description.md  <https://github.com/telepathylabsai/BETOLD_dataset/blob/main/BETOLD_description.md>`_
-and the paper (released soon!) for more details on the creation of the dataset and on the features.
+and the `paper <https://aclanthology.org/2022.cai-1.4/>`_ for more details on the creation of the dataset and on the features.
 
 
 
@@ -105,14 +104,20 @@ If you decide to use this resource, please cite:
 
 ::
 
-    @inproceedings{terragni2022betold,
-        title={{BETOLD}: A Task-Oriented Dialog Dataset for Breakdown Detection},
-        author={Terragni, Silvia and Guedes, Bruna and Manso, Andre and Filipavicius, Modestas and Khau, Nghia and Mathis, Roland},
-        year={2022},
-        booktitle={Proceedings of the 2nd Workshop on When Creative AI Meets Conversational AI (CAI2), COLING 2022",
-        month = oct,
-        year = "2022",
-        publisher = "Association for Computational Linguistics",
-        url = "",
-        pages = "23–34",
-    }
+   @inproceedings{terragni2022_betold,
+       title = "{BETOLD}: A Task-Oriented Dialog Dataset for Breakdown Detection",
+       author = "Terragni, Silvia  and
+         Guedes, Bruna  and
+         Manso, Andre  and
+         Filipavicius, Modestas  and
+         Khau, Nghia  and
+         Mathis, Roland",
+       booktitle = "Proceedings of the Second Workshop on When Creative AI Meets Conversational AI",
+       month = oct,
+       year = "2022",
+       address = "Gyeongju, Republic of Korea",
+       publisher = "Association for Computational Linguistics",
+       url = "https://aclanthology.org/2022.cai-1.4",
+       pages = "23--34",
+   }
+
